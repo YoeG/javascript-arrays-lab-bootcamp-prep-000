@@ -7,4 +7,4 @@ function destructivelyAppendKitten (name)
 {kittens.push(name)}
 
 destructivelyAppendKitten("Yoe")
-c
+console.log(kittens[3]);
