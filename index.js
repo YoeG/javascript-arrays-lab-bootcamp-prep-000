@@ -39,7 +39,7 @@ function prependKitten (name)
 /////////////////////////////////////////////////////////////////////////////////
 
 function removeLastKitten()
-{newKittens = kittens.; return newKittens}
+{newKittens = kittens.slice(0,3); return newKittens}
 
 
 
