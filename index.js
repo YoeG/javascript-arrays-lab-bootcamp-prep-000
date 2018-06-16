@@ -34,3 +34,4 @@ function appendKitten(name)
 
 appendKitten ('Broom')
 console.log(newKittens[3])
+console.log(kittens[3])
