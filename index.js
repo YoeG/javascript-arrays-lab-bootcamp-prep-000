@@ -34,4 +34,4 @@ function destructivelyRemoveFirstKitten()
 /////////////////////////////////////////////////////////////////////////////////
 
 function appendKitten(name)
-{newKittens}
+{newKittens; newKittens = kittens []}
