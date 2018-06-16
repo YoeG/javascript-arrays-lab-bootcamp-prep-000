@@ -33,7 +33,8 @@ appendKitten ('Broom')
 
 /////////////////////////////////////////////////////////////////////////////////
 
-
+function prependKitten (name)
+{newKittens = [name, ...kittens]; return newKittens}
 
 
 
