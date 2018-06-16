@@ -36,7 +36,10 @@ appendKitten ('Broom')
 function prependKitten (name)
 {newKittens = [name, ...kittens]; return newKittens}
 
+/////////////////////////////////////////////////////////////////////////////////
 
+function removeLastKitten()
+{newKittens = kittens.pop(); return newKittens}
 
 
 
