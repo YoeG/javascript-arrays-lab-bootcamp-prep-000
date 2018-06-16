@@ -33,4 +33,4 @@ function appendKitten(name)
 { newKittens = kittens.concat(name)}
 
 appendKitten ('Broom')
-console.log(newkittens[3])
+console.log(newKittens[3])
