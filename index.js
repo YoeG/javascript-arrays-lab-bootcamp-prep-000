@@ -13,6 +13,10 @@ console.log(kittens[3]);
 
 ///////////////////////////////////////////////////////////////////////////////
 
-function 
+function destructivelyPrependKitten (name)
+{kittens.unshift(name)}
+var aName = "Juan"
+destructivelyPrependKitten (aName)
+console.log(kittens[0])
 
 
